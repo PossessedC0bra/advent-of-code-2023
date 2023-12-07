@@ -1,14 +1,5 @@
 package day01
 
-import readInput
-
-fun main() {
-    val lines = readInput("day01/input.txt")
-
-    println("Part 1: ${part1(lines)}")
-    println("Part 2: ${part2(lines)}")
-}
-
 fun part1(lines: List<String>): Int {
     var sum = 0
 

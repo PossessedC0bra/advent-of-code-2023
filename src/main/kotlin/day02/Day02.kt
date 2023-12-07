@@ -1,14 +1,5 @@
 package day02
 
-import readInput
-
-fun main() {
-    val input = readInput("day02/input.txt")
-
-    println("Part 1: ${part1(input)}")
-    println("Part 2: ${part2(input)}")
-}
-
 const val GAME_ID_GROUP_NAME = "gameId"
 const val ROUNDS_GROUP_NAME = "rounds"
 const val CUBE_COUNT_GROUP_NAME = "cubeCount"

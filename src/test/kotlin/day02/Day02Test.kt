@@ -7,26 +7,26 @@ import kotlin.test.assertEquals
 internal class Day02Test {
 
     @Test
-    fun testPart1ExampleInput() {
-        val input = readTestInput("day02/part1_example_input.txt")
+    fun part1ExampleTest() {
+        val input = readTestInput("day02/example.txt")
         assertEquals(8, part1(input))
     }
 
     @Test
-    fun testPart1RealInput() {
+    fun part1Test() {
         val input = readTestInput("day02/input.txt")
-        assertEquals(2879, part1(input))
+        assertEquals(2_879, part1(input))
     }
 
     @Test
-    fun testPart2ExampleInput() {
-        val input = readTestInput("day02/part2_example_input.txt")
-        assertEquals(2286, part2(input))
+    fun part2ExampleTest() {
+        val input = readTestInput("day02/example.txt")
+        assertEquals(2_286, part2(input))
     }
 
     @Test
-    fun testPart2RealInput() {
+    fun part2Test() {
         val input = readTestInput("day02/input.txt")
-        assertEquals(65122, part2(input))
+        assertEquals(65_122, part2(input))
     }
 }

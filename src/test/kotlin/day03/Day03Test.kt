@@ -8,7 +8,7 @@ class Day03Test {
 
     @Test
     fun part1ExampleTest() {
-        val input = readTestInput("day03/part1.txt")
+        val input = readTestInput("day03/example.txt")
         assertEquals(4_361, part1(input))
     }
 
@@ -20,7 +20,7 @@ class Day03Test {
 
     @Test
     fun part2ExampleTest() {
-        val input = readTestInput("day03/part1.txt")
+        val input = readTestInput("day03/example.txt")
         assertEquals(467_835, part2(input))
     }
 
